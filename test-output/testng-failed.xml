@@ -5,7 +5,9 @@
     <classes>
       <class name="myTestCases">
         <methods>
-          <include name="defaultCurrency"/>
+          <include name="CheckTheHotelIsNotSelected"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="mySetUp"/>
         </methods>
       </class> <!-- myTestCases -->

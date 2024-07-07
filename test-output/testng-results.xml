@@ -1,32 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-26T02:20:52 EET" name="Default suite" finished-at="2024-06-26T02:21:27 EET" duration-ms="34804">
+  <suite started-at="2024-07-08T01:15:37 EET" name="Default suite" finished-at="2024-07-08T01:16:49 EET" duration-ms="72014">
     <groups>
     </groups>
-    <test started-at="2024-06-26T02:20:52 EET" name="Default test" finished-at="2024-06-26T02:21:27 EET" duration-ms="34804">
+    <test started-at="2024-07-08T01:15:37 EET" name="Default test" finished-at="2024-07-08T01:16:49 EET" duration-ms="72014">
       <class name="myTestCases">
-        <test-method is-config="true" signature="mySetUp()[pri:0, instance:myTestCases@35d08e6c]" started-at="2024-06-26T02:20:52 EET" name="mySetUp" finished-at="2024-06-26T02:21:27 EET" duration-ms="34494" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:15:34 EET" name="setUp" finished-at="2024-07-08T01:15:37 EET" duration-ms="2537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="mySetUp()[pri:0, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:15:37 EET" name="mySetUp" finished-at="2024-07-08T01:16:10 EET" duration-ms="33750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetUp -->
-        <test-method signature="defaultCurrency()[pri:0, instance:myTestCases@35d08e6c]" started-at="2024-06-26T02:21:27 EET" name="defaultCurrency" finished-at="2024-06-26T02:21:27 EET" duration-ms="71" status="PASS">
+        <test-method signature="CheckTheLanguage()[pri:1, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:10 EET" name="CheckTheLanguage" description="MainPageTest" finished-at="2024-07-08T01:16:11 EET" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- defaultCurrency -->
-        <test-method signature="defaultLanguage()[pri:0, instance:myTestCases@35d08e6c]" started-at="2024-06-26T02:21:27 EET" name="defaultLanguage" finished-at="2024-06-26T02:21:27 EET" duration-ms="46" status="PASS">
+        </test-method> <!-- CheckTheLanguage -->
+        <test-method signature="CheckTheCurrency()[pri:2, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:11 EET" name="CheckTheCurrency" description="MainPageTest" finished-at="2024-07-08T01:16:11 EET" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- defaultLanguage -->
-        <test-method signature="testContact()[pri:0, instance:myTestCases@35d08e6c]" started-at="2024-06-26T02:21:27 EET" name="testContact" finished-at="2024-06-26T02:21:27 EET" duration-ms="54" status="PASS">
+        </test-method> <!-- CheckTheCurrency -->
+        <test-method signature="CheckContantNumber()[pri:3, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:11 EET" name="CheckContantNumber" description="MainPageTest" finished-at="2024-07-08T01:16:11 EET" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testContact -->
-        <test-method signature="verifyQitafLogo()[pri:0, instance:myTestCases@35d08e6c]" started-at="2024-06-26T02:21:27 EET" name="verifyQitafLogo" finished-at="2024-06-26T02:21:27 EET" duration-ms="69" status="PASS">
+        </test-method> <!-- CheckContantNumber -->
+        <test-method signature="QitafLogo()[pri:4, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:11 EET" name="QitafLogo" description="MainPageTest" finished-at="2024-07-08T01:16:11 EET" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQitafLogo -->
+        </test-method> <!-- QitafLogo -->
+        <test-method signature="CheckTheHotelIsNotSelected()[pri:5, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:11 EET" name="CheckTheHotelIsNotSelected" description="MainPageTest" finished-at="2024-07-08T01:16:11 EET" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheHotelIsNotSelected -->
+        <test-method signature="CheckDepartureAndReturnDate()[pri:6, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:11 EET" name="CheckDepartureAndReturnDate" description="MainPageTest" finished-at="2024-07-08T01:16:13 EET" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDepartureAndReturnDate -->
+        <test-method signature="CheckTheLanguageHasChangedRandomly()[pri:7, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:13 EET" name="CheckTheLanguageHasChangedRandomly" description="MainPageTest" finished-at="2024-07-08T01:16:15 EET" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheLanguageHasChangedRandomly -->
+        <test-method signature="HotelSelection()[pri:8, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:15 EET" name="HotelSelection" description="HotelPageTest" finished-at="2024-07-08T01:16:15 EET" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSelection -->
+        <test-method signature="HotelVesitor()[pri:9, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:16 EET" name="HotelVesitor" description="HotelPageTest" finished-at="2024-07-08T01:16:23 EET" duration-ms="7324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelVesitor -->
+        <test-method signature="HotelPageIsLoaded()[pri:10, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:23 EET" name="HotelPageIsLoaded" description="HotelPageTest" finished-at="2024-07-08T01:16:45 EET" duration-ms="22593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelPageIsLoaded -->
+        <test-method signature="HotelSorting()[pri:11, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:45 EET" name="HotelSorting" description="HotelPageTest" finished-at="2024-07-08T01:16:49 EET" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myTestCases@5ffead27]" started-at="2024-07-08T01:16:49 EET" name="tearDown" finished-at="2024-07-08T01:16:49 EET" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- myTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
